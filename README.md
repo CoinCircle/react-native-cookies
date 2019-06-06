@@ -1,26 +1,16 @@
 ## react-native-cookies
 
-Cookie manager for react native.
+Cookie manager for react native. Managed by Coincircle
 
 [![npm version](https://badge.fury.io/js/react-native-cookies.svg)](https://badge.fury.io/js/react-native-cookies)
 [![npm downloads](https://img.shields.io/npm/dm/react-native-cookies.svg)](https://www.npmjs.com/package/react-native-cookies)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/joeferraro/react-native-cookies/master/LICENSE.md)
 
-### Looking for Maintainers
-
-I no longer use this library and I'm looking for maintainer(s) to take full control over the development and release cycle.
-
-### Installation
-
-```
-yarn add react-native-cookies
-```
-
 ### Linking
 
 #### Automatic (recommended)
 
-```
+```bash
 react-native link react-native-cookies
 ```
 
@@ -32,7 +22,7 @@ If automatic linking does not work, you can manually link this library by follow
 
 1. Open your project in Xcode, right click on `Libraries` and click `Add
    Files to "Your Project Name"` Look under `node_modules/react-native-cookies/ios` and add `RNCookieManagerIOS.xcodeproj`.
-2. Add `libRNCookieManagerIOS.a` to `Build Phases -> Link Binary With Libraries.
+2. Add `libRNCookieManagerIOS.a` to `Build Phases -> Link Binary With Libraries.`
 3. Clean and rebuild your project
 
 ##### Android
@@ -53,7 +43,7 @@ project(':react-native-cookies').projectDir = new File(rootProject.projectDir, '
 ```gradle
 dependencies {
    ...
-   compile project(':react-native-cookies')
+   implementation project(':react-native-cookies')
 }
 ```
 
