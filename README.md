@@ -6,20 +6,11 @@ Cookie manager for react native.
 [![npm downloads](https://img.shields.io/npm/dm/react-native-cookies.svg)](https://www.npmjs.com/package/react-native-cookies)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/joeferraro/react-native-cookies/master/LICENSE.md)
 
-
-
-
-### Installation
-
-```
-yarn add react-native-cookies
-```
-
 ### Linking
 
 #### Automatic (recommended)
 
-```
+```bash
 react-native link react-native-cookies
 ```
 
@@ -75,8 +66,6 @@ protected List<ReactPackage> getPackages() {
     );
 }
 ```
-
-
 
 ### Usage
 
